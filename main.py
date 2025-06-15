@@ -1,3 +1,7 @@
+# This is how to commit the code to GitHub
+# git add . && git commit -m "Code update" && git push
+
+
 def DisplayMenu():
 
     exit = False
@@ -11,7 +15,7 @@ def DisplayMenu():
 
     choice = input("Please select an option (1-5): ")
     choice = int(choice)
-
+ 
     return choice
 
 def login():
@@ -34,3 +38,5 @@ while not login():
 
 while DisplayMenu() != 5:
     pass
+
+print("You have logged out successfully. Goodbye!")
